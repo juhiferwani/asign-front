@@ -15,7 +15,7 @@ function App() {
                     <Switch> 
                           <Route path = "/" exact component = {FlightComponent}></Route>
                           <Route path = "/flights" component = {FlightComponent}></Route>
-                          <Route path = "/view-employee/:id" component = {ViewFlightComponent}></Route>
+                          <Route path = "/view-flight/:id" component = {ViewFlightComponent}></Route>
                     </Switch>
                 </div>
               <FooterComponent />
